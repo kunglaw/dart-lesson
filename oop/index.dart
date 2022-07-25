@@ -19,10 +19,10 @@ void main() {
   WarriorHero hw = WarriorHero();
   SnakeMonster sm = SnakeMonster();
   
-  h.healthPoint = 10;
+  h.healthPoint = -10;
   m.healthPoint = 10;
 
-  hw.healthPoint = 50;
+  hw.healthPoint = -50;
   sm.healthPoint = 45;
   
   // print(m.healthPoint);

@@ -4,7 +4,5 @@ main() {
     list.add(1);
     list.add(2);
 
-    list.
-
     print(list);
 }

@@ -13,4 +13,14 @@ class JellyfishMonster extends Monster {
         objHero.healthPoint = objHero.healthPoint - attackPower;
     }
 
+    @override
+    String move(){
+        return "move really slow";
+    }
+
+    @override eatHuman(){
+        // return super.eatHuman();
+        return "zap..suck nutrient from human";
+    }
+
 }

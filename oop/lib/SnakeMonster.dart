@@ -8,4 +8,20 @@ class SnakeMonster extends Monster {
         print("Snake Monster using : veno menomm...power "+attackPower.toString());
         objHero.healthPoint = objHero.healthPoint - attackPower;
     }
+
+    says(){
+        print("hisssss....!!");
+    }
+
+    @override
+    String move(){
+        return "move slow but sure deadly";
+    }
+
+    @override 
+    String eatHuman(){
+        return "inject venom....and nom nom";
+    }
+
+
 }
